@@ -10,6 +10,5 @@ public class App{
         System.out.println(resta);
         System.out.println(mult);
         System.out.println(div); 
-        
     }
 }
