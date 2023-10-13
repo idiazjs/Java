@@ -9,7 +9,7 @@ public class App{
         System.out.println(suma);
         System.out.println(resta);
         System.out.println(mult);
-        System.out.println(div);
+        System.out.println(div); 
         
     }
 }
