@@ -5,7 +5,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         final int iva = 21;
         float precio = scanner.nextFloat();
-        float precio_final = (float)((precio*iva)/100)+precio;
+        float precio_final = (float) ((precio * iva) / 100) + precio;
         System.out.println(precio_final);
         scanner.close();
     }
