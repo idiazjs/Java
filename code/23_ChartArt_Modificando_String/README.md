@@ -1,0 +1,1 @@
+23) Reemplaza todas las a del String anterior por una e.
