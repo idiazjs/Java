@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String texto = "La lluvia en Sevilla es una maravilla";
+        String texto = "La lluvia en Sevilla es una maravillaa";
         char[] vocales = { 'a', 'e', 'i', 'o', 'u' };
         int contador = 0;
         for (int i = 0; i < texto.length(); i++) {
