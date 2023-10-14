@@ -1,0 +1,1 @@
+21) Muestra los números primos entre 1 y 100.
