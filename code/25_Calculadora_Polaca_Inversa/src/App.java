@@ -30,6 +30,6 @@ public class App {
             default:
                 System.out.println("Operador no valido");
         }
-        scan.close();
+        scan.close(); 
     }
 }
