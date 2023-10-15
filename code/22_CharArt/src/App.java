@@ -12,6 +12,6 @@ public class App {
                 }
             }
         }
-        System.out.println( contador );
+        System.out.println(contador);
     }
 }
