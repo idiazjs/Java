@@ -1,0 +1,1 @@
+34) Dada una frase, separarlo en palabras.
