@@ -1,0 +1,1 @@
+26) Realizar la suma del 1 al numero que indiquemos, este debe ser mayor que 1.
