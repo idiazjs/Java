@@ -1,0 +1,1 @@
+35) Crea un enum con los días de la semana, pide un día de la semana e indica si es laboral o no (en el main).
