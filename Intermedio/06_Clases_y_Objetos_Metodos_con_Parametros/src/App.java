@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         CuentaBancaria cuentaBancaria = new CuentaBancaria("Jesus", "Diaz", "Lara", "1314",
-                CuentaBancaria.tipoCuenta.AHORROS, 0);
+                CuentaBancaria.tipoCuenta.AHORROS);
         System.out.println(cuentaBancaria.getSaldo());
         cuentaBancaria.depositar(1000);
         cuentaBancaria.retirar(300);
@@ -25,14 +25,13 @@ class CuentaBancaria {
     tipoCuenta cuenta;
     float saldo = 0;
 
-    public CuentaBancaria(String nomTitular, String appTitular, String apmTitular, String numCuenta, tipoCuenta cuenta,
-            float saldo) {
+    public CuentaBancaria(String nomTitular, String appTitular, String apmTitular, String numCuenta,
+            tipoCuenta cuenta) {
         this.nomTitular = nomTitular;
         this.appTitular = appTitular;
         this.apmTitular = apmTitular;
         this.numCuenta = numCuenta;
         this.cuenta = cuenta;
-        this.saldo = saldo;
     }
 
     public String getNomTitular() {
