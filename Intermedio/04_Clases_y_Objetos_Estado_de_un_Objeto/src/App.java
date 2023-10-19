@@ -6,6 +6,8 @@ public class App {
         System.out.println(auto.getVelocidadActual());
         auto.desAcelerarAuto(50);
         System.out.println(auto.getVelocidadActual());
+        auto.desAcelerarAuto(500);
+        System.out.println(auto.getVelocidadActual());
         auto.frenaAuto();
         System.out.println(auto.getVelocidadActual());
         System.out.println("Estadisticas: ");
