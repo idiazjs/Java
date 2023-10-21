@@ -2,8 +2,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         Pedido pedido = new Pedido();
         pedido.calcularPedido("Costillitas", 120.50f, "Coca Cola", 18.50f);
-        pedido.calcularPedido("Costillitas", 120.50f, "Chilaquiles", 80.0f, "Coca Cola", 18.50f);
-        pedido.calcularPedido("Costillitas", 120.50f, "Chilaquiles", 80.0f, "Coca Cola", 18.50f, "Fresas con crema",
+        Pedido pedido2 = new Pedido();
+        pedido2.calcularPedido("Costillitas", 120.50f, "Chilaquiles", 80.0f, "Coca Cola", 18.50f);
+        Pedido pedido3 = new Pedido();
+        pedido3.calcularPedido("Costillitas", 120.50f, "Chilaquiles", 80.0f, "Coca Cola", 18.50f, "Fresas con crema",
                 50f);
     }
 }
