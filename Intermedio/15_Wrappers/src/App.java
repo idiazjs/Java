@@ -1,11 +1,13 @@
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Envoltorio envoltorio = new Envoltorio();
         envoltorio.convertirToWrapper();
         envoltorio.convertirToTipoPrimitivo();
         envoltorio.consultarChar();
+        envoltorio.ordenaCaracteres();
     }
-
 }
 
 class Envoltorio {
@@ -59,5 +61,11 @@ class Envoltorio {
         System.out.println("¿El caracter e = " + e + " es un dígito? = " + esDigito);
         char charMinuscula = Character.toLowerCase(e);
         System.out.println("Caracter e = " + e + " convertido a minuscula = " + charMinuscula);
+    }
+
+    public void ordenaCaracteres() {
+        char[] arrayChar = { 'o', 'i', 'a', 'u', 'e' };
+        Arrays.sort(arrayChar);
+        System.out.println(String.valueOf(arrayChar));
     }
 }

@@ -19,3 +19,8 @@ char            e          ‘M’
 > Es una letra.
 > En un dígito.
 > Convierta el carácter en minúscula.
+
+Ejercicios propuestos
+> Crear un array de caracteres y luego ordenarlo alfabéticamente.
+> Crear un programa que imprima en pantalla los valores mínimos y máximo de un entero (int), long, float y double.
+> Crear un método que reciba como parámetro un tipo de dato int, luego, convertirlo a long, a float y, finalmente, imprimir en pantalla los tres valores.
